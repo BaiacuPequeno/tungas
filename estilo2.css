@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+
+body {
+    background-image: url(imagens/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px white;
+}

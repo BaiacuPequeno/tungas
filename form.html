@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="backfund">
+        <header>
+            <img src="imagens/icon.jpg" alt="logo" / width="270" height="150">
+            <br />
+            <h1 class="tit3">Siri Cascudo</h1>
+
+
+            <nav class="container2">
+                <a href="index.html">Home</a>
+                <a href="cur.html">Entregas</a>
+                <a href="form.html">Formulário</a>
+            </nav>
+        </header>
+
+        <br>
+        <hr>
+        <br>
+
+        <section class="fundo">
+            <h4>Para comprar algo em nosso site, você deve fazer o cadastro a seguir.</h4>
+
+            <form method="#">
+                <label for id="nome">Nome:</label>
+                <input type="text" size="25" name="id_nome" id="nome" required="required">
+
+                <br>
+
+                <label for id="idd">Idade:</label>
+                <select name="id_idd" id="idd">
+                    <option value="#"></option>
+                    <option value="1518">15-18</option>
+                    <option value="1825">18-25</option>
+                    <option value="2530">25-30</option>
+                    <option value="30">30+</option>
+                </select>
+
+                <br>
+
+                <label for id="cdd">Cidade:</label>
+                <input autocomplete="on" list="cidade" name="id_cdd" id="cdd">
+                <datalist id="cidade">
+                    <option value="Fenda do Bikini"></option>
+                    <option value="Fenda da Pedra"></option>
+                    <option value="Parque dos Tentáculos"></option>
+                    <option value="Vila Longínqua"></option>
+                    <option value="Nova Alga"></option>
+                </datalist>
+
+                <br>
+
+                <label for id="cart">Número do cartão</label>
+                <input type="number" name="id_cart" id="cart" required="required">
+
+                <br>
+
+                <label for id="sencart">Senha do cartão</label>
+                <input type="password" name="id_sencart" id="sencart" required="required">
+
+                <br>
+
+                <label for id="cvv">Cvv</label>
+                <input type="password" name="id_cvv" id="cvv" required="required">
+
+                <br>
+
+                <label for id="val">Validade</label>
+                <input type="date" name="id_val" id="val" required="required">
+
+                <br><br>
+                <a href="4_pag.html">
+                    <input type="submit" class="top">
+                </a>
+            </form>
+
+            <br><br><br><br>
+
+            <img src="imagens/foto_3.jpg" alt="foto" width="550" height="500">
+            <br><br><br><br>
+        </section>
+    </div>
+
+
+</body>
+
+</html>
